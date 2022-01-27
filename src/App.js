@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import part1 from './components/part1'
+import PartOne from './components/PartOne';
+import Home from './pages/Home';
+
 function App() {
   return (
     <div className="App">
      <h1>Hello World!!!!!!!</h1>
      <p>This is my first time in working with ReactJS.</p>
-     <part1/>
+     <PartOne /><PartOne /><PartOne /><PartOne />
+     <Home />
     </div>
   );
 }
